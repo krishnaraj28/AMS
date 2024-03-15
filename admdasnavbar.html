@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>navbar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #333;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            padding:4px 10px; 
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 20px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: grey;
+        }
+
+        .navbar ul li a:active {
+            color: grey;
+        }
+        a{
+             color:black;
+             text-decoration: none;
+        }
+        #home {
+            color: white;
+            font-size: 12px;
+            text-align: right;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            width: 50px;
+            background-color:lightgrey;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            margin-right: 20px;
+        }
+        #home:hover {
+            background-color:grey;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <ul>
+        <li><a href="adminhome.php">DASHBOARD</a></li>
+        <li><a href="admin_approval.php">APPROVE</a></li>
+        <li><a href="event.php">EVENT</a></li>
+        <li><a href="delete_event.php">DELETE-EVENT</a></li>
+        <li><a href="message_admin.php">MESSAGE</a></li>
+        <li><a href="all_story.php">STORY</a></li>
+    </ul>
+    <p id="home"><a href="logout.php">LOGOUT</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+
+.banner {
+    height: 100vh;
+    background-image: url('background.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-size:contain;
+    cursor: pointer;
+}
+
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; 
+}
+
+.navbar ul li a:hover {
+    color:grey;
+}
+
+.content {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+
+#b1 {
+    background-color:black; 
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor:pointer;
+
+}
+
+#b1:hover {
+    background-color: grey; 
+}
