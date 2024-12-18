@@ -1,6 +1,30 @@
 # AMS
 
-Alumni are valuable assets for any educational institution. But keeping the spark alive with them is challenging. It is difficult to maintain important information and make changes in paper documents. Data can slip away or become obsolete. Relationships can fade or fall apart. Generating reports can take a lot of manual work and effort. Managing historical data can be tedious and require a lot of space to store all the previous years’ records.
-An alumni management system is used by educational institutes to maintain and manage records of alumni in an efficient manner. The project uses PHP/MySQL as the technology platform and has two user interfaces: the admin interface for the institution and the alumnus/alumna interface for the alumni themselves. The system allows alumni to register, manage, and update their personal and professional information. The system also enables the institutions to access and analyze the alumni data.
-An alumni management system is a software platform designed to help educational institutions and organizations maintain connections with their former students, or alumni. It provides a centralized platform for managing and organizing alumni data, facilitating communication, and fostering engagement between alumni and the institution.
+
+An Alumni Management System is a software platform designed to help educational institutions maintain and manage connections with their former students, or alumni. It provides a centralized platform for managing alumni data, facilitating communication, and fostering engagement between alumni and the institution.
+
+This system addresses challenges such as maintaining accurate records, generating reports, managing historical data, and fostering ongoing relationships with alumni. It is built using **PHP** and **MySQL** and provides two user interfaces:
+- **Admin Interface**: For institutional administrators.
+- **Alumnus/Alumna Interface**: For the alumni to interact with the system.
+
+---
+
+## **Features**
+
+### **Admin Interface**
+- **Login**: Secure access for administrators.
+- **Verify & Authorize Alumni**: Review and approve alumni registrations.
+- **Post & Delete Events**: Create and manage events for alumni.
+- **Send and Receive Messages**: Communicate directly with alumni.
+- **Logout**: Securely end the session.
+
+### **Alumni Interface**
+- **Login**: Secure login for alumni members.
+- **Register**: New alumni can register their accounts.
+- **View Profile**: View personal and professional details.
+- **Search Friends**: Find and connect with other alumni.
+- **Update Details**: Update personal and professional information.
+- **Post & Delete Stories**: Share experiences and stories with the community.
+- **Send and Receive Messages**: Communicate with other alumni or the institution.
+- **Logout**: Securely end the session.
 
