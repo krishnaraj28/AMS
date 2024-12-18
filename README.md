@@ -1,5 +1,5 @@
 # AMS
-
+(Take the path that leads to our batch)
 
 An Alumni Management System is a software platform designed to help educational institutions maintain and manage connections with their former students, or alumni. It provides a centralized platform for managing alumni data, facilitating communication, and fostering engagement between alumni and the institution.
 
